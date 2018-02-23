@@ -1,0 +1,264 @@
+/***************for phones and small devices**********************************************/
+
+/******************home page*****************/
+
+body{
+    background-color: #020202;
+    color: white;
+}
+
+
+/*Navbar Main*/
+
+.navbar-fixed-top {
+    background-color: #020202;
+    border-color: none;
+    height: 100px;
+    position: relative;
+    position: fixed;
+    color: black;
+}
+
+
+
+#logo{
+    height: 100px;
+    margin-top: 5px;
+}
+
+
+
+/*buttons*/
+.navbar-nav a{
+    background-color: #020202;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.navbar-nav>li>a {
+    color: #858156;
+}
+
+
+
+/*******************Home page************************/
+
+/*main content*/
+
+#mainContainer{
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.icon-bar{
+    background-color: white;
+}
+
+
+#box1{
+    border: 2px solid #70ab01;
+    z-index: -1;
+}
+
+#circle1{
+    position: relative;
+    background-color: white;
+    color: #878787;
+    border: 6px solid #70ab01;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 150px;
+    padding: 50px 20px 20px 20px;
+    margin-top: -40px;
+    margin-left: 20px;
+    z-index: 1;
+}
+#circle1:before{
+    position: absolute;
+    content: "";
+    border: 6px solid rgba(172, 215, 172,0.7);
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    z-index: -1;
+    padding: 50px 20px 20px 20px;
+    margin-top: -50px;
+    margin-left: -21px;
+}
+
+
+#box2{
+    border: 2px solid #1b78f3;
+    z-index: -1;
+}
+
+#circle2{
+    position: relative;
+    background-color: white;
+    color: #878787;
+    border: 6px solid #1b78f3;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 150px;
+    padding: 50px 20px 20px 20px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-left: 40px;
+    z-index: 1;
+}
+#circle2:before{
+    position: absolute;
+    content: "";
+    border: 6px solid rgba(89, 116, 241,0.4);
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    z-index: -1;
+    padding: 50px 20px 20px 20px;
+    margin-top: -50px;
+    margin-left: -34px;
+}
+
+
+#box3{
+    border: 2px solid #f37c1b;
+    z-index: -1;
+    height: 600px;
+    width: 230px;
+}
+
+#circle3{
+    position: relative;
+    background-color: white;
+    color: #878787;
+    border: 6px solid #f37c1b;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 150px;
+    padding: 50px 20px 20px 20px;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    margin-left: 40px;
+    z-index: 1;
+}
+#circle3:before{
+    position: absolute;
+    content: "";
+    border: 6px solid rgba(233, 131, 55,0.4);
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    z-index: -1;
+    padding: 50px 20px 20px 20px;
+    margin-top: -50px;
+    margin-left: -23px;
+}
+
+
+
+
+#box4{
+    border: 2px solid #e82a2a;
+    z-index: -1;
+}
+
+#circle4{
+    position: relative;
+    background-color: white;
+    color: #878787;
+    border: 6px solid #e82a2a;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 23px;
+    width: 150px;
+    height: 150px;
+    padding: 50px 20px 20px 20px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    margin-left: 40px;
+    z-index: 1;
+}
+#circle4:before{
+    position: absolute;
+    content: "";
+    border: 6px solid rgba(223, 41, 62,0.4);
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    z-index: -1;
+    padding: 50px 20px 20px 20px;
+    margin-top: -50px;
+    margin-left: -28px;
+}
+
+
+
+
+
+
+
+
+
+/*******Footer**************/
+
+.footer{
+    background-color: #020202;
+    text-align: center;
+    height: 280px;
+    padding-top: 20px;
+    padding-left 0px;
+    padding-right: 0px;
+   
+    
+}
+
+#contactBen{
+    width: 190px;
+    height: 40px;
+    border: 3px solid #09578f;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 100px;
+}
+
+#iconFooter h2{
+    margin-top: 0;
+}
+
+
+
+/********************for tablets**********************************************************/
+@media only screen and (min-width: 768px) {
+
+
+    
+    
+}
+
+    /********************for Desktops**********************************************************/
+@media only screen and (min-width: 1143px) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+

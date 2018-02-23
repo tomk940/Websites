@@ -1,0 +1,140 @@
+body{
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+#header{
+    background: linear-gradient(#fff, rgba(67,169,228,0.9));
+    background: -webkit-linear-gradient(#fff, rgba(67,169,228,0.9));
+    background: -moz-linear-gradient(#fff, rgba(67,169,228,0.9));
+    background: -o-linear-gradient(#fff, rgba(67,169,228,0.9));
+    background: -ms-linear-gradient(#fff, rgba(67,169,228,0.9));
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 3em;
+    color: #fff;
+    line-height: 75px;
+    
+}
+
+
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.input{
+    height: 30px;
+    font-size: 1.3em;
+}
+
+
+#circle{
+    position: absolute;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+#thicknessInput{
+    position: relative;
+}
+
+#slider{
+    margin: 10px auto;
+}
+
+
+
+
+
+/*canva*/
+
+#container{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(122,174,229, 0.5);
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+
+#paint{
+    background-color: white;
+    cursor: crosshair;
+}
+
+
+
+
+/*buttons*/
+
+.inputContainer2{
+    width: 399px;
+    margin: 0 auto;
+}
+
+.input2{
+    width: 133px;
+    color: #f8c03f;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    position: relative;
+    background: #3fa1f8;
+    border: 1px solid #285c8a;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 3px;
+    -webkit-box-shadow: 2px 3px #645e57;
+    -moz-box-shadow: 2px 3px #645e57;
+    -o-box-shadow: 2px 3px #645e57;
+    -ms-box-shadow: 2px 3px #645e57;   
+}
+
+.button:hover{
+    background: #f8c03f;
+    color: #3fa1f8;
+}
+
+.button:active{
+    top: 3px;
+    left: 2px;
+    box-shadow: 0px 0px;
+    -webkit-box-shadow: 0px 0px #645e57;
+    -moz-box-shadow: 0px 0px #645e57;
+    -o-box-shadow: 0px 0px #645e57;
+    -ms-box-shadow: 0px 0px #645e57;  
+}
+
+
+/*//erase button class*/
+.eraseMode{
+    top: 3px;
+    left: 2px;
+    background-color: #f8c03f;
+    color: #3fa1f8;
+    box-shadow: 0px 0px;
+    -webkit-box-shadow: 0px 0px #645e57;
+    -moz-box-shadow: 0px 0px #645e57;
+    -o-box-shadow: 0px 0px #645e57;
+    -ms-box-shadow: 0px 0px #645e57;  
+}

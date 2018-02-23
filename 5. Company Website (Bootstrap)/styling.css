@@ -1,0 +1,117 @@
+body{
+    
+    font-family: Arvo, serif;
+    background: url(http://freenaturestock.s3.amazonaws.com/232.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.navbar-default{
+    background-color: rgba(0,0,0,0.5);
+    border-bottom-color: rgba(0,0,0,0.5);
+}
+
+.navbar-default .navbar-nav>li{
+    margin-right: 35px;
+    width: 150px;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.navbar-brand{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+    color: #bfbfbf;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #00ffb8;
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+
+#logo{
+    height: 30px;
+    width: 30px;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.jumbotron{
+    background: rgba(0,0,0,0);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+.icons{
+    background: rgba(0,0,0,0);
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.btn-primary{
+    background: rgba(0,255,184,0.3);
+    border: none;
+    font-size: 25px;
+    height: 50px;
+    width: 300px;
+    padding:10px 70px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
+
+.icon{
+    height: 100px;
+}
+
+.icon p{
+    font-size: 15px;
+}
+
+
+
+.col-md-4{
+    text-align: center;
+}
+
+
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+@media(max-width: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
+
