@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>How Many Can Fit? Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=2, user-scalable=yes">
+        
+        <link rel="stylesheet" href="questionStyling.css">
+    </head>
+        
+    <body>
+        <div id="titleContainer">
+            <h1>How Many Can Fit?</h1>
+        </div>
+        
+        
+        <div id="container">
+            
+            
+            
+            <div id="score">
+                Score: <span id="scoreValue">0</span>
+            </div>
+            
+            <div id="correct">
+                <p>Well Done!!   Keep Going! :D</p>
+            </div>
+            
+            <div id="wrong">
+                <p>Try Again! You Can Do It! :) </p>
+            </div>
+            
+            <div id="question">
+                <div id="aa"><p id="a">a</p></div>
+                <div id="bb"><p id="b">b</p></div>
+                <div id="cc"><p id="c">c</p></div>
+                <div id="dd"><p id="d">d</p></div>
+                <div id="ee"><p id="e">e</p></div>
+                <div id="ff"><p id="f">f</p></div>
+                
+                <div class="shape">
+                    <img src="images//cuboid.png" id="cuboid" class="shapeImage">
+                    <img src="images/Cube1.svg.png" id="cube" class="shapeImage">
+                </div>
+                <div id="question2"><p>How many small cubes can you fit into the larger cuboid?</p></div>
+                 
+            </div>
+            
+            <div id="instruction">
+                Click on the Correct Answer
+            </div>
+            
+            <div id="choices">
+                <div id="box1" class="box"></div>
+                <div id="box2" class="box"></div>
+                <div id="box3" class="box"></div>
+                <div id="box4" class="box"></div>
+            </div>
+            
+            <div id="startReset">
+                Start Game
+            </div>
+            <div id="timeRemaining">
+                Time Remaining: <span id="timeRemainingValue">60</span> secs
+            </div>
+            
+            <div id="gameOver">
+                <p>Game Over</p>
+                <p>Your Score is:</p>
+            </div>
+            
+            
+        </div>
+        
+        <br />
+        <br />
+        <br />
+        
+        <p><a href="index.html" id="mainMenu">Main Menu</a></p>
+        
+        <script src="manyfitGameScript.js"></script>
+        
+
+        
+    </body>
+
+</html>
